@@ -41,7 +41,7 @@ public class NaverApiService {
         RequestEntity<Void> requestEntity = RequestEntity
                 .get(uri)
                 .header("X-Naver-Client-Id", "aogqP4Mus32QjGhQx_Lo")
-                .header("X-Naver-Client-Secret", "_gwA2i7jzG")
+                .header("X-Naver-Client-Secret", "ddIM6ViAea")
                 .build();
 
         ResponseEntity<String> responseEntity = restTemplate.exchange(requestEntity, String.class);
